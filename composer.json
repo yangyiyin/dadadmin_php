@@ -12,16 +12,9 @@
         {
             "name": "yyy",
             "email": "178340042@qq.com"
-        },
-        {
-            "name": "yunwuxin",
-            "email": "448901948@qq.com"
-        }        
+        }
     ],
     "require": {
         "php": ">=7.1.0"
-    },
-    "require-dev": {
-
     }
 }
