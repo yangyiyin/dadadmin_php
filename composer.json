@@ -1,0 +1,28 @@
+{
+    "name": "yyy/dadamin",
+    "description": "基础后台脚手架",
+    "type": "project",
+    "keywords": [
+        "后台管理系统",
+        "基础rbac后台",
+        "基础后台脚手架"
+    ],
+    "homepage": "",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "yyy",
+            "email": "178340042@qq.com"
+        },
+        {
+            "name": "yunwuxin",
+            "email": "448901948@qq.com"
+        }        
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+
+    }
+}
