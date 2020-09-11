@@ -1559,5 +1559,5 @@ function in_array_case($value,$array){
  * @return \yyy_base_admin\Common\Model\baseModel
  */
 function BD($name){
-    return new \yyy_base_admin\Common\Model\baseModel($name);
+    return new \Common\Model\baseModel($name);
 }

@@ -19,11 +19,13 @@ if (APP_DEBUG) {
 }
 
 // 定义应用目录
+define('ROOT_PATH',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR);
 define('APP_PATH','.'.DIRECTORY_SEPARATOR);
 define('APP_PATH_ABS',dirname(__FILE__) . DIRECTORY_SEPARATOR);
 define('TIMESTAMP',time());
 
 include_once APP_PATH . 'cors.php';
+include_once ROOT_PATH . DIRECTORY_SEPARATOR . 'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
 
 // 引入ThinkPHP入口文件
 require  '../ThinkPHP/ThinkPHP.php';

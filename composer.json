@@ -13,7 +13,19 @@
             "email": "178340042@qq.com"
         }
     ],
+    "repositories": {
+        "0": {
+            "type": "vcs",
+            "url": "https://gitee.com/yixsu_admin/base_lib.git"
+        },
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    },
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+        "yyy/base_lib": "dev-master"
+
     }
 }

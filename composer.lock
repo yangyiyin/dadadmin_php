@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d0331fcb81c551db645be076f3f8e332",
+    "packages": [
+        {
+            "name": "yyy/base_lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitee.com/yixsu_admin/base_lib.git",
+                "reference": "4dfb04451c298215933847fc6aa4f733dee51d9c"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "yyy_base_lib\\": "./"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "yyy",
+                    "email": "178340042@qq.com"
+                }
+            ],
+            "description": "基本类库",
+            "time": "2020-08-06T06:14:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "yyy/base_lib": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1.0"
+    },
+    "platform-dev": []
+}

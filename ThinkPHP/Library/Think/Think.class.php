@@ -146,6 +146,7 @@ class Think {
      * @return void
      */
     public static function autoload($class) {
+
         // 检查是否存在映射
         if(isset(self::$_map[$class])) {
             include self::$_map[$class];
@@ -160,11 +161,13 @@ class Think {
               $path       =   isset($namespace[$name])? dirname($namespace[$name]).'/' : APP_PATH;
           }
           $filename       =   $path . str_replace('\\', '/', $class) . EXT;
+
           if(is_file($filename)) {
               // Win环境下面严格区分大小写
               if (IS_WIN && false === strpos(str_replace('/', '\\', realpath($filename)), $class . EXT)){
                   return ;
               }
+
               include $filename;
           }
         }elseif (!C('APP_USE_NAMESPACE')) {
